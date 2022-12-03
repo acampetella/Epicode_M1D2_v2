@@ -93,3 +93,7 @@ main #read-more{
     margin-top: 0;
     padding-bottom: 0.8em;
 }
+
+main #ingredients li {
+    margin: 0.5em 0;
+}
