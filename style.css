@@ -1,0 +1,95 @@
+/* import del font Open Sans da google */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body a {
+    color: #149299;
+}
+
+header {
+    height: 20%;
+}
+
+header .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #logo {
+    height: 60%;
+}
+
+header #logo img {
+    height: 50%;
+}
+
+header #header-desc {
+    height: 40%;
+    border-top: 1px solid #e3c11b;
+    background-color: #fafaf0;;
+}
+
+header #header-desc span strong {
+    text-transform: uppercase;
+}
+
+main .main-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 4em;
+}
+
+main #main-div #img-div p:first-child {
+    text-align: justify;
+}
+
+main #main-div #img-div p:last-child {
+    color: grey;
+}
+
+main #main-div #img-div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+main #main-div #featured {
+    text-align: left;
+    padding-left: 1.5em;
+    border-left: 1px solid #e3c11b;
+    margin-top: 1.5em;
+}
+
+main #main-div #featured span {
+    text-transform: uppercase;
+    color: chocolate;
+}
+
+main #main-div #featured a {
+    text-transform: capitalize;
+}
+
+main .list-container{
+    text-align: left;
+    margin-top: 2em;
+}
+
+main .list-container .title {
+    border-bottom: 1px solid aquamarine;
+    padding: 0.2em 0;
+}
+
+main #read-more{
+    margin-top: 0;
+    padding-bottom: 0.8em;
+}
